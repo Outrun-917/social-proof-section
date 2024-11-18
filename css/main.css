@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/Path.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.main-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "League Spartan", sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  width: 80%;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+  width: 100%;
+}
+
+.hero-content {
+  max-width: 445px;
+}
+
+.main-heading {
+    color: #510251;
+    font-size: 56px;
+    line-height: 48px;
+}
+
+.product-description {
+    color: #927B91;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.rating-reports {
+  max-width: 445px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.rating-report {
+    background-color: #F7F2F7;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 20px 72px 20px 32px;
+}
+
+.rating-report-info {
+    font-weight: bold;
+    margin-left: 32px;
+}
+
+.user-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.user-card {
+    background-color: #510251;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 40px 32px;
+    width: 33%;
+}
